@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+body {
+    background: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    background:rgb(255, 255, 255);
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+.header .logo {
+    color: black;
+    padding: 2rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.header .logo span {
+    color: black;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-left: -.4rem;
+}
+
+.header .navegation {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.header .navegation a {
+    padding-right: 2rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header .navegation .icon a {
+    padding: .1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 760px)
